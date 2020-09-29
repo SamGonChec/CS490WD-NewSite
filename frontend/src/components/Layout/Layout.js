@@ -10,20 +10,12 @@ position: absolute;
 margin: 0 auto;
 height: 100%;
 width: 100%;
-border-style: solid;
-border-width: 1px;
-border-color: yellow;
 `
-// todo remove border
-const Wrapper = styled.div`
-border-style: solid;
-border-width: 1px;
-border-color: green;
-`
+
 const Space = styled.div`
 border-style: solid;
 border-width: 1px;
-border-color: blue;
+border-color: green;
 `
 
 function Layout({ children }){
@@ -31,11 +23,9 @@ function Layout({ children }){
     <Container>
         <Header/>
         <TabBar/>
-        <Wrapper>
-            <Space>
-              {children}
-            </Space>
-        </Wrapper>
+          <Space>
+            {children}
+          </Space>
         <Footer/>
     </Container>
   );

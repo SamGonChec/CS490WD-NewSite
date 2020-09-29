@@ -3,7 +3,7 @@ import '../css/App.css';
 
 function Home() {
   return (
-    <div className="App">
+    <div>
       <header className="App-page">
         <h1>Richmond Health Clinic</h1>
       </header>

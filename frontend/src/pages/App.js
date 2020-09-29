@@ -1,4 +1,4 @@
-  import React from 'react';
+import React from 'react';
 import '../css/App.css';
 import Home from '../pages/Home';
 import About from '../pages/About';
@@ -23,7 +23,7 @@ function App() {
       }
 
       return (
-        <div className="App-header">
+        <div className="App">
             <Layout>
                 {currentPage}
             </Layout>
