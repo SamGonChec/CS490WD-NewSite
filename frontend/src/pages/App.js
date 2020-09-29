@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../css/App.css';
 import Home from '../pages/Home';
 import About from '../pages/About';
@@ -9,6 +9,11 @@ import { useSelector } from 'react-redux';
 
 function App() {
     
+  useEffect(() => {
+    // reset scroll on rerender
+    window.scrollTo(0,0);
+  });
+
       const currentTab = useSelector((state) => state.tabReducer.currentTab );
       let currentPage;
 

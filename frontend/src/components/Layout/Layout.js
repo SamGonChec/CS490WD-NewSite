@@ -7,22 +7,39 @@ import Footer from '../Footer';
 // Todo change Container to be a component and not just a box.
 const Container = styled.div `
 position: absolute;
-margin: 0 auto;
+margin: auto;
 height: 100%;
 width: 100%;
 `
-
-const Space = styled.div`
+const Heading = styled.div`
+top: 0px;
+width: 100%;
+position: fixed;
+background-color: #282c34;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+display: flex;
 border-style: solid;
 border-width: 1px;
+border-color: red;
+`
+
+const Space = styled.div`
+postion: absolute;
+padding-top: 200px;
+border-style: solid;
+border-width: 2px;
 border-color: green;
 `
 
 function Layout({ children }){
   return (
     <Container>
+      <Heading>
         <Header/>
         <TabBar/>
+      </Heading>
           <Space>
             {children}
           </Space>
