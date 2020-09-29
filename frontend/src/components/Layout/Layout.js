@@ -27,7 +27,7 @@ border-color: red;
 
 const Space = styled.div`
 postion: absolute;
-padding-top: 200px;
+padding-top: 175px;
 border-style: solid;
 border-width: 2px;
 border-color: green;

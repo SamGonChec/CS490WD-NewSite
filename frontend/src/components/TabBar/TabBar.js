@@ -82,14 +82,6 @@ export default function TabBar() {
         <Tab label="Services" {...a11yProps(2)}/>
         <Tab label="Doctors" {...a11yProps(3)}/>
       </Tabs>
-      <TabPanel value={value} index={0}>
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-      </TabPanel>
-      <TabPanel value={value} index={3}>
-      </TabPanel>
     </div>
   );
 }
