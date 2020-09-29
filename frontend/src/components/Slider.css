@@ -1,0 +1,7 @@
+.doctor-img {
+  max-height: 100vh;
+  max-width: auto;
+  text-align: center;
+  display: block;
+  object-fit: scale-down;
+}

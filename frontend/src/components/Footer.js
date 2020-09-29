@@ -53,7 +53,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/'>Testimonials</Link>
+            <a href='https://www.facebook.com/RichmondFamilyClinic/reviews/?ref=page_internal'>Testimonials</a>
             <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
@@ -66,7 +66,7 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
+            <a href='https://www.facebook.com/RichmondFamilyClinic'>Facebook</a>
             <Link to='/'>Twitter</Link>
           </div>
         </div>
@@ -80,14 +80,14 @@ function Footer() {
           </div>
           <small class='website-rights'>Feye © 2020</small>
           <div class='social-icons'>
-            <Link
+            <a
               class='social-icon-link facebook'
-              to='/'
+              href='https://www.facebook.com/RichmondFamilyClinic'
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
+            </a>
             <Link
               class='social-icon-link instagram'
               to='/'

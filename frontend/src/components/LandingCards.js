@@ -1,5 +1,5 @@
 import React from 'react';
-import './Cards.css';
+import './LandingCards.css';
 import CardItem from './CardItem';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
@@ -20,7 +20,7 @@ const CustomToast = () => {
 }
 
 toast.configure();
-function Cards() {
+function LandingCards() {
 
   const contact = () => {
     toast(<CustomToast/>, {position: toast.POSITION.TOP_CENTER})
@@ -34,7 +34,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/img-1.jpg'
-              text='Learn about our clinic'
+              text='Hear our story'
               label='About'
               path='/about'
             />
@@ -56,7 +56,7 @@ function Cards() {
               src='images/img-4.jpg'
               text='Learn how we are dealing with Covid-19'
               label='Covid'
-              path='/Covid'
+              path='/covid'
             />
             <CardItem
               src='images/img-0.jpg'
@@ -72,4 +72,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default LandingCards;

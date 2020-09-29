@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import Cards from '../Cards';
+import LandingCards from '../LandingCards';
 import Landing from '../Landing';
 import Footer from '../Footer';
 
@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       <Landing />
-      <Cards />
+      <LandingCards />
       <Footer />
     </>
   );
