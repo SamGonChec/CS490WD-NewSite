@@ -1,6 +1,6 @@
-import tabReducer from "./tabReducer.js";
+import tabChangeReducer from "./tabChangeReducer.js";
 import { combineReducers } from "redux";
 
 export default combineReducers({
-  tabReducer
+    tabChangeReducer
 });
