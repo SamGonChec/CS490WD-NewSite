@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/doctors",
+      "handler": "doctor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/doctors/count",
+      "handler": "doctor.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/doctors/:id",
+      "handler": "doctor.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/doctors",
+      "handler": "doctor.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/doctors/:id",
+      "handler": "doctor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/doctors/:id",
+      "handler": "doctor.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

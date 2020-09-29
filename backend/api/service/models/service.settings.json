@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "name": "Service"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    }
+  }
+}
