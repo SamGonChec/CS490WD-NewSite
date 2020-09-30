@@ -4,19 +4,25 @@ import './NavBar.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
+import { FaPhoneSquare, FaEnvelope } from 'react-icons/fa';
 import 'react-toastify/dist/ReactToastify.css'
 import './Landing.css';
 
 const CustomToast = () => {
   return (
     <div className='toast-alert'>
-      <h1 className='toast-alert-header'>Contact</h1>
+      <h1 className='toast-alert-header'>Contact Us</h1>
+      <br/>
       <div className='contact-phone-number'>
-        Phone Number
+        <FaPhoneSquare/>
+        {' '}(816) 470-2131
       </div>
+      <br/>
       <div className='contact-email'>
-        Email
+      <FaEnvelope/>
+        {' '}RHC@gmail.com
       </div>
+      <br/>
     </div>
   )
 }
@@ -25,7 +31,15 @@ toast.configure();
 function Footer() {
 
   const contact = () => {
-    toast(<CustomToast/>, {position: toast.POSITION.TOP_CENTER})
+    toast(<CustomToast/>, {
+      position: toast.POSITION.TOP_CENTER, 
+      autoClose: 8000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: false,
+      progress: undefined
+    })
   }
 
   return (
@@ -84,6 +98,7 @@ function Footer() {
               class='social-icon-link facebook'
               href='https://www.facebook.com/RichmondFamilyClinic'
               target='_blank'
+              rel="noopener noreferrer"
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />

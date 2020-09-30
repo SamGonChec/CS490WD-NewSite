@@ -62,3 +62,33 @@
       width: 100%;
     }
   }
+
+  .contact-phone-number {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .contact-email {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .toast-alert-header {
+    position: relative;
+    color: white;
+    font-size: 30px;
+  }
+
+  .Toastify__toast--default {
+    background-color: black;
+  }
+
+  .Toastify__close-button {
+    color: white;
+  }
