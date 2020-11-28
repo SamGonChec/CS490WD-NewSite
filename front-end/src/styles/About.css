@@ -1,0 +1,15 @@
+.parent{
+    display: flex;
+}
+.left{
+    float: left;
+    top:0px;
+    left:0px;
+}
+.right{
+    top: 30px;
+    float: right;
+}
+.banner{
+    text-align: center;
+}

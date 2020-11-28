@@ -8,8 +8,8 @@ function Home() {
     <>
       <Navbar/>
       {/* content */}
-      <p>Content</p>
-
+      <h1>A clinic for your needs</h1>
+      <img src="front-end/public/img/RFC Logo.jpg"></img>
       {/* <div>Footer</div> */}
       <Footer />
     </>
