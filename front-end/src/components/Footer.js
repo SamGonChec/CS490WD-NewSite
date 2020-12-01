@@ -1,7 +1,6 @@
 import React from 'react'
 import {Button} from './Button'
 import {Link} from 'react-router-dom'
-import styled from 'styled-components'
 import '../styles/Footer.css'
 
 function Footer() {
@@ -12,11 +11,11 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/'>Testimonials</Link>
+            <a href='https://www.facebook.com/RichmondFamilyClinic/reviews/?ref=page_internal' target="_blank" >Testimonials</a>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
+            <Link to='/contact'>Contact</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
