@@ -8,7 +8,6 @@ function Contact() {
     return (
         <>
         <Navbar></Navbar>
-        <p>HISSS</p>
         <Footer></Footer>
         </>
     )
