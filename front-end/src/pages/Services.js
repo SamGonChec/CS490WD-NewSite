@@ -7,7 +7,8 @@ import Card from '../components/Card';
 function Services() {
     return (
         <>
-        
+        <Navbar></Navbar>
+        <Footer></Footer>
         </>
     )
 }
