@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -40,4 +41,86 @@
   position: relative;
   top:0px;
   left:0px;
+}
+
+.about-parent{
+  display: flex;
+  float: left;
+  top:0px;
+  left:0px;
+}
+.about-left{
+  float: left;
+  top:0px;
+  left:0px;
+}
+.about-right{
+  top: 30px;
+  float: right;
+}
+.about-banner{
+  text-align: center;
+}
+.about-background{
+  background: url('./Clinic.jpg') center center/cover no-repeat;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-container{
+  background-color: white;
+  height: 80%;
+  width: 80%;
+  border-radius: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services-container{
+  background-color: white;
+  height: 80%;
+  width: 80%;
+  border-radius: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services-background{
+  background: url('./Clinic2.jpg') center center/cover no-repeat;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 980px) {
+  .services-background{
+    height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .services-container{
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    border-radius: 1%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-parent{
+    display: flex;
+    flex-direction: column;
+  }
 }
