@@ -8,6 +8,32 @@ function Contact() {
     return (
         <>
         <Navbar></Navbar>
+        <div className="pages-background">
+            <div className="pages-container">
+                <div className="pages-banner">
+                    <h2>Our Contact Information. Call and Schedule an Appointment Today</h2>
+                </div>
+              <div className="pages-parent">
+                <Card
+                    title="Contact Information ☎"
+                    body="Telephone Number: 816-470-2131
+                        Fax Number: 816-470-7171"
+                ></Card>
+                  <Card
+                    title="Hours of Operation 🕒"
+                    body="Monday-Friday: 7:30 AM - 5:00 PM
+                        Saturday: 8:00 AM - 12:00 PM
+                        Sunday: Closed
+                        "
+                ></Card>
+                <Card
+                    title="Holiday Hours of Operation"
+                    body="
+                        We are closed major Holidays: Memorial Day, 4th of July, Labor Day, Thanksgiving, Christmas, New Year’s Day"
+                ></Card>
+                </div>
+            </div>
+        </div>
         <Footer></Footer>
         </>
     )
