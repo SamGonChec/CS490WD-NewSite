@@ -3,20 +3,19 @@ import '../styles/App.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
-//import clinic from '/front-end/public/img/Clinic.jpg';
 
 function About() {
   return (
     <>
       <Navbar/>
       {/* content */}
-      <div className="about-background">
       
-      <div className="about-container">  
-      <div className="about-banner">
-        <h1 className="about-banner">Our Staff</h1>
+      <div className="pages-background">
+      <div className="pages-container">  
+      <div className="banner">
+        <h1 className="pages-banner">Our Staff</h1>
       </div>
-      <div className="about-parent">
+      <div className="pages-parent">
       <Card
       title ='Mrs. Barbara McCullough, FNP-C'
       imageURL ="img/barbfamilyphoto.jpg"
@@ -49,23 +48,12 @@ function About() {
 
          </Card>
        </div>
-        <h1>Testimonials</h1>
-
-         <Card title='Dr. Jamie Honeycutt, MD, Board Certified Family Physician'
-         imageURL='img/honeycuttfamily.jpg'
-         body='Dr. Honeycutt grew up in the Richmond area, graduating from Orrick High School. She attended UMKC school of Medicine, and did her Family Practice residency at the University of Illinois in Peoria. 
-         She always knew she wanted to come back to her hometown and provide care for her community, and raise her family here. 
-         She resides in the Richmond area with her husband and two sons, and enjoys watching them play sports, and show their livestock at local and national livestock competition shows. 
-         She started with Richmond Family Clinic in 2006, while it was owned by Meritas Health. Meritas Health wanted to close their Richmond location in 2007, 
-         so Dr. Honeycutt along with Dr. Nathan Inzerillo opened privately under the Richmond Family Clinic name on February 18th, 2008. 
-         She has been providing care to the Richmond and surrounding communities for over 10 years now, and enjoys watching her patients and their families grow, and has no plans to leave the area.  '>
-
-         </Card>
-
        </div>
        </div>
+
 
       <Footer />
+
     </>
   );
 }

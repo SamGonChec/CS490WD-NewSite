@@ -43,11 +43,10 @@
   left:0px;
 }
 
-.about-parent{
+.pages-parent{
   display: flex;
   float: left;
-  top:0px;
-  left:0px;
+  background-size: cover;
 }
 .about-left{
   float: left;
@@ -58,69 +57,53 @@
   top: 30px;
   float: right;
 }
-.about-banner{
+.pages-banner{
   text-align: center;
 }
-.about-background{
-  background: url('./Clinic.jpg') center center/cover no-repeat;
-  height: 100%;
+.pages-background{
+  background: url('./Clinic.jpg');
+  background-repeat: no-repeat; 
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+  display: flex;
+  min-height: 100vh;
   width: 100%;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  object-fit: fill;
 }
-.about-container{
+.pages-container{
   background-color: white;
-  height: 80%;
-  width: 80%;
-  border-radius: 1%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.services-container{
-  background-color: white;
-  height: 80%;
-  width: 80%;
-  border-radius: 1%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.services-background{
-  background: url('./Clinic2.jpg') center center/cover no-repeat;
   height: 100%;
-  width: 100%;
+  width: 80%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  border-radius: 1%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 @media screen and (max-width: 980px) {
-  .services-background{
+  .pages-background{
+    width: 100%;
     height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
   }
-  .services-container{
+  .pages-container{
     background-color: white;
-    height: 80%;
-    width: 80%;
-    border-radius: 1%;
-    display: flex;
-    
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    min-height: 100%;
+    width: 100%;
   }
-  .about-parent{
-    display: flex;
+  .pages-parent{
     flex-direction: column;
   }
 }
