@@ -10,9 +10,10 @@ function Contact() {
         <Navbar></Navbar>
         <div className="pages-background">
             <div className="pages-container">
-                <div className="pages-banner">
-                    <h2>Our Contact Information. Call and Schedule an Appointment Today</h2>
-                </div>
+                
+                    <h1 className="pages-banner">Our Contact Information</h1>
+                    <h1 className="h1-banner"> Call and Schedule an Appointment Today</h1>
+                
               <div className="pages-parent">
                 <Card
                     title="Contact Information ☎"
