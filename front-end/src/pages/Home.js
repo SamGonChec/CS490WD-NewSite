@@ -22,7 +22,7 @@ function Home() {
       <hr></hr>
       <div className='patients'>
         <h2 className='title'>Welcome to Richmond Family Clinic</h2>
-        <h2>We provide services for both new and existing patients</h2>
+        <h2 className='sub_title'>We provide services for both new and existing patients</h2>
         <img src='/img/medical.svg' alt='medical'></img>
         <img src='/img/examination.svg' alt='examination'></img>
       </div>
@@ -40,7 +40,7 @@ function Home() {
       <hr></hr>
       <br></br>
       <div>
-        <h2>Read Testimonials from our very own patients</h2>
+        <h2 className='sub_title'>Read Testimonials from our very own patients</h2>
       </div>
       <div>
         <ReviewCard 
