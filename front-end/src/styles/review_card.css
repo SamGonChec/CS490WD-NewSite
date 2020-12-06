@@ -1,0 +1,60 @@
+.review_card{
+    width: 28%;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.5s;
+    animation: ease-in-out;
+    position: relative;
+    display: inline-flex;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    margin-top: 4%; 
+}
+
+.review_card:hover{
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.review_card_content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+h3,p{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 19px;
+}
+.review_card_title{
+    margin-bottom: 4%;
+    margin-top: 4%;
+} 
+
+.review_card_title img{
+    height: 20px;
+    margin-right:2%;
+    filter: invert(34%) sepia(13%) saturate(2393%) hue-rotate(183deg) brightness(95%) contrast(92%);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 980px) {
+
+.review_card{
+    width: 75%;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.5s;
+    animation: ease-in-out;
+    position: relative;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    margin-top: 4%; 
+    }
+
+
+}

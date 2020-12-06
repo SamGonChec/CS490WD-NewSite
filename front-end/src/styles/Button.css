@@ -11,16 +11,17 @@
 }
 
 .button--primary{
-    background-color: #ffcccb;
+    /* background-color: #ffcccb; */
+    background-color: lightblue;
     color: #242424;
-    border: 1px solid var(--primary);
+    border: 1px solid lightblue;
 }
 
 .button--outline {
     background-color: transparent;
     color: #242424;
     padding: 8px 20px;
-    border: 1px solid var(--primary);
+    border: 1px solid lightblue;
     transition: all 0.4s ease-out;
 }
 
@@ -35,7 +36,7 @@
 }
 
 .button--medium:hover, .button--large:hover{
-    background: var(--primary);
+    background: rgba(20, 106, 163, 0.801);
     color: #242424;
     transition: all 0.4s ease-out;
     cursor: pointer;

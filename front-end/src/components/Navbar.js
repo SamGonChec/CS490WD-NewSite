@@ -31,8 +31,8 @@ function NavBar() {
       <IconContext.Provider value={{ color: '#fff' }}>
         <nav className={navBackground}>
           <div className='navbar-container container'>
-            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                Richmond Health Clinic
+            <Link to='/' className='navbar-logo transparent-header' onClick={closeMobileMenu}>
+              <img src='img/RFCLogo.png' alt="Richmond Family Clinic" height='82' id="logo"></img>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
