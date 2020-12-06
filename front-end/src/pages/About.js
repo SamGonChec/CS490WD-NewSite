@@ -3,19 +3,19 @@ import '../styles/App.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
-import '../styles/About.css';
-import '../styles/jackieandtimmy.jpg';
 
 function About() {
   return (
     <>
       <Navbar/>
       {/* content */}
+      
+      <div className="pages-background">
+      <div className="pages-container">  
       <div className="banner">
-        <h2 className="banner">Our Staff</h2>
+        <h1 className="pages-banner">Our Staff</h1>
       </div>
-      <div className="parent">
-      <div className="left">
+      <div className="pages-parent">
       <Card
       title ='Mrs. Barbara McCullough, FNP-C'
       imageURL ="img/barbfamilyphoto.jpg"
@@ -24,15 +24,11 @@ function About() {
             and finally with our clinic as a Family Nurse Practitioner. 
             She has 3 children, 1 stepdaughter, and 1 granddaughter. During the summer she enjoys spending time at the lake with her family, 
             and hopes to move to Florida one day… though we hope not too soon, as she has been an amazing fit for our clinic!'></Card>
-       </div>
-       <div className="left">
        <Card title='Mrs. Emilee Lam-Stevens, FNP-C'
        imageURL='img/emileefamphoto.jpg'
        body='Emilee is a 2019 graduate of the University of Central Missouri Nurse Practitioner program, and is board certified in Family Practice. She is a graduate of Hardin Central, 
        and still resides in Hardin with her husband Kyle, daughter Lynlee, son Barrett, (and one on the way… shhhh… no one knows yet)… 
-       she has always wanted to live and provide care in her community and enjoys spending time with her family in their new camper, when not at the office.'></Card>
-       </div>     
-       <div className="left">
+       she has always wanted to live and provide care in her community and enjoys spending time with her family in their new camper, when not at the office.'></Card>    
          <Card title='Mrs. Jackie Sattler, FNP-C' 
          imageURL='img/jackieandtimmy.jpg' 
          body='Jackie Sattler has been a Nurse Practitioner since 2006, and is a graduate of Richmond High School. 
@@ -41,8 +37,6 @@ function About() {
          She enjoys watching her son compete in golf matches and play in band, as well as her two rescue pups, Daisy and Charlie.'>
 
          </Card>
-       </div>
-       <div className="left">
          <Card title='Dr. Jamie Honeycutt, MD, Board Certified Family Physician'
          imageURL='img/honeycuttfamily.jpg'
          body='Dr. Honeycutt grew up in the Richmond area, graduating from Orrick High School. She attended UMKC school of Medicine, and did her Family Practice residency at the University of Illinois in Peoria. 
@@ -55,8 +49,11 @@ function About() {
          </Card>
        </div>
        </div>
+       </div>
+
 
       <Footer />
+
     </>
   );
 }

@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import '../styles/Card.css';
-import '../styles/jackieandtimmy.jpg'
 
 
 function Card({title,imageURL,body}){
