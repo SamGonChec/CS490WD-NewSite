@@ -6,7 +6,8 @@
     animation: ease-in-out;
     border-radius: 1%;
     margin: 50px;
-    background-color: #ffcccb;
+    /* background-color: #ffcccb; */
+    background-color: lightblue;
 }
 .card:hover{
     box-shadow: 0px 0px 15px 0px;
