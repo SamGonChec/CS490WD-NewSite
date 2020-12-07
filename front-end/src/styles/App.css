@@ -1,0 +1,114 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.left,.right{
+  position: relative;
+  top:0px;
+  left:0px;
+}
+
+/* .pages-parent{
+  display: flex;
+  float: left;
+  background-size: cover;
+} */
+.about-left{
+  float: left;
+  top:0px;
+  left:0px;
+}
+.about-right{
+  top: 30px;
+  float: right;
+}
+.pages-banner{
+  text-align: center;
+  font-size: 4em;
+}
+.pages-background{
+  background: url('./Clinic.jpg');
+  background-repeat: no-repeat; 
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: fill;
+}
+
+.pages-container{
+  background-color: rgba(255,255,255,0.55);
+  width: 73%;
+  padding: 15px;
+  border-radius: 1%;
+  box-shadow: 0 0 7px;
+  margin: 20px;
+  direction: ltr;
+}
+.h1-banner{
+  text-align: center;
+}
+@media screen and (max-width: 980px) {
+  .pages-background{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    background: none;
+  }
+  .pages-container{
+    background-color: white;
+    min-height: 100%;
+    width: 80%;
+    align-items: center;
+  }
+  .pages-banner{
+    text-align: center;
+    
+    font-size: 3em;
+  }
+}
