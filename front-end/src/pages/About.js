@@ -13,10 +13,8 @@ function About() {
       
       <div className="pages-background">
       <div className="pages-container">  
-      <div className="banner">
         <h1 className="pages-banner">Our Staff</h1>
-      </div>
-      <div className="pages-parent">
+      {/* <div className="pages-parent"> */}
       <Card
       title ='Mrs. Barbara McCullough, FNP-C'
       imageURL ="img/barbfamilyphoto.jpg"
@@ -48,7 +46,7 @@ function About() {
          She has been providing care to the Richmond and surrounding communities for over 10 years now, and enjoys watching her patients and their families grow, and has no plans to leave the area.  '>
 
          </Card>
-       </div>
+       {/* </div> */}
        </div>
        </div>
 
